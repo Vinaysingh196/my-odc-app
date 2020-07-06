@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "types": ["node", "webgl2", "offscreencanvas"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strictFunctionTypes": false
   },
   "exclude": [
     "test.ts",
